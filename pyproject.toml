@@ -13,8 +13,8 @@ dependencies = [
     "langchain==0.3.27",
     # TIP: 'langchain-core' ko alag pin na karo; 'langchain' sahi version le aayega.
     # Agar zaroori ho, to compatible pair hi pin karo.
-    "python-dotenv==1.1.1",
-    "streamlit==1.49.1",
+    "python-dotenv>=1.1,<2.0",
+    "streamlit>=1.49,<2.0",
 ]
 
 # Optional: authors, license
